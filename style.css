@@ -21,6 +21,7 @@ li a{
     
 }
 .jumbotron{
+  height: 100vh;
   background-color: #f8f9fa;
   font-family: 'Pompiere', cursive;
 }
@@ -73,3 +74,10 @@ button {
   button:active:after {
     opacity: 0;
   }
+  .section-2{
+    height: 100vh;
+  }
+
+
+
+  
