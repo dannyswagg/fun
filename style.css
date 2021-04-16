@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
 *{
-    padding: 0;
-    margin: 0;
-    
+  padding: 0;
+  margin: 0;
 }
 html{
     scroll-behavior: smooth;
@@ -22,29 +21,24 @@ li a{
     
 }
 .jumbotron{
-    background-color: #f8f9fa;
-    padding: 20px 80px !important;
-    font-family: 'Pompiere', cursive;
+  background-color: #f8f9fa;
+  font-family: 'Pompiere', cursive;
 }
-
-
-
-  
-  button {
-    background-color:#E0E5EC;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
-    color: black;
-    font-weight: 700;
-    height: 90px;
-    margin-bottom: 48px;
-    margin-right: 48px;
-    overflow: hidden;
-    position: relative;
-    text-transform: uppercase;
-    width: 90px;
-  }
+button {
+  background-color:#E0E5EC;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px rgba(255,255,255, 0.5);
+  color: black;
+  font-weight: 700;
+  height: 70px;
+  margin-bottom: 48px;
+  margin-right: 48px;
+  overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
+  width: 70px;
+    }
   
   button:after {
     content: "";
@@ -78,10 +72,4 @@ li a{
   
   button:active:after {
     opacity: 0;
-  }
-  .section-2{
-    height: 100vh;
-    background: url(./images/sanaea-sanjana-1EdDSB9cp2k-unsplash.jpg);
-    background-attachment: fixed;
-    background-color: #f8f9fa;
   }
